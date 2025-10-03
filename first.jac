@@ -43,3 +43,7 @@ walker play_game {
         }
     }
 }
+
+with entry: __main__ {
+    root spawn play_game;
+}
